@@ -21,6 +21,7 @@ return [
                 'engine' => 'innodb',
                 'initStatements' => 'SET NAMES utf8;',
                 'active' => '1',
+                'install' => [ 'date' => 'Thu, 01 Feb 2021 05:48:29 +0000' ],
                 'driver_options' => [
                     1014 => false
                 ]

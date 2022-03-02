@@ -79,3 +79,27 @@ If you still want to deploy in these modes, use -f option: 'bin/magento setup:st
 #3 C:\xampp\htdocs\magento\vendor\symfony\console\Application.php(147): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #4 C:\xampp\htdocs\magento\bin\magento(23): Symfony\Component\Console\Application->run()
 #5 {main} [] []
+[2022-03-02 14:34:52] main.ERROR: Unable to proceed: the maintenance mode is enabled.  [] []
+[2022-03-02 14:35:55] main.ERROR: Unable to proceed: the maintenance mode is enabled.  [] []
+[2022-03-02 14:38:06] main.ERROR: Unable to proceed: the maintenance mode is enabled.  [] []
+[2022-03-02 15:15:24] main.ERROR: There are no commands defined in the "deploy:mode" namespace.
+#0 C:\xampp\htdocs\magento\vendor\symfony\console\Application.php(655): Symfony\Component\Console\Application->findNamespace('deploy:mode')
+#1 C:\xampp\htdocs\magento\vendor\symfony\console\Application.php(235): Symfony\Component\Console\Application->find('deploy:mode:set')
+#2 C:\xampp\htdocs\magento\vendor\magento\framework\Console\Cli.php(115): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\magento\vendor\symfony\console\Application.php(147): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\magento\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2022-03-02 15:16:39] main.ERROR: There are no commands defined in the "deploy:mode" namespace.
+#0 C:\xampp\htdocs\magento\vendor\symfony\console\Application.php(655): Symfony\Component\Console\Application->findNamespace('deploy:mode')
+#1 C:\xampp\htdocs\magento\vendor\symfony\console\Application.php(235): Symfony\Component\Console\Application->find('deploy:mode:set')
+#2 C:\xampp\htdocs\magento\vendor\magento\framework\Console\Cli.php(115): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\magento\vendor\symfony\console\Application.php(147): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\magento\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2022-03-02 15:17:38] main.ERROR: There are no commands defined in the "deploy:mode" namespace.
+#0 C:\xampp\htdocs\magento\vendor\symfony\console\Application.php(655): Symfony\Component\Console\Application->findNamespace('deploy:mode')
+#1 C:\xampp\htdocs\magento\vendor\symfony\console\Application.php(235): Symfony\Component\Console\Application->find('deploy:mode:set')
+#2 C:\xampp\htdocs\magento\vendor\magento\framework\Console\Cli.php(115): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\magento\vendor\symfony\console\Application.php(147): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\magento\bin\magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
